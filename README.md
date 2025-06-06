@@ -1,1 +1,1 @@
-# rock-paper-scissors-game
+This is what i made while following the odin project. It was very fun making this.
