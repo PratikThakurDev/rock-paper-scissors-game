@@ -102,6 +102,24 @@ function playround(humanchoice,computerchoice){
                 \nHuman score : ${humanscore}\tComputer score : ${computerscore}`)
         }
     }
+    result()
+
+   
 }
+
+function result() {
+     if (humanscore>=computerscore){
+        console.log("Human Won!!!")
+    }
+
+    else if (humanscore<=computerscore){
+        console.log("Computer Won!!!")
+    }
+
+    else if (humanscore===computerscore){
+        console.log("Draw!!!")
+    }
+}
+playround()
 
 
