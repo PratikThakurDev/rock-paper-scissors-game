@@ -34,3 +34,23 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.scorecard{
+    color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    align-items: center;
+    border: 2px solid rgb(0, 183, 255);
+}
+.records{
+    display: flex;
+    
+}
+.roundNo,.computerScore,.humanScore{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 30px;
+}
+.title{
+    font-size: 30px;
+}
