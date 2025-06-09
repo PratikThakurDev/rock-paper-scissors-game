@@ -1,22 +1,29 @@
 body{
-    background-color: rgb(10, 9, 9);
+    background-color:#121212;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 }
 .heading{
-    color: rgb(89, 79, 231);
+    color:#8ABAF1;
     font-size: 100px;
     text-align: center;
 }
-.line{
-    color: rgba(228, 70, 49, 0.836);
+.line1{
+    color: #FDCB6E;
     font-size: 50px;
     margin-bottom: 25px;
     padding-left: 20px;
 }
+.line2{
+    color: #E0E0E0;
+    font-size: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+
+}
 .round{
-    color: rgb(158, 20, 170);
+    color: #E0E0E0;
     padding-left: 300px;
     font-size: 60px;
     
@@ -25,6 +32,15 @@ body{
     padding-left: 20px;
     margin-top: 30px;
     margin-bottom: 40px;
+    
+}
+.image1,.image2,.image3{
+    border:5px solid  transparent;
+    cursor : pointer;
+    transition: border-color 0.3s ease;
+}
+.image1:hover,.image2:hover,.image3:hover{
+    border-color: #8ABAF1;
 }
 .choice{
     display: flex;
@@ -33,24 +49,51 @@ body{
 .main-content{
     display: flex;
     justify-content: space-between;
+    padding-right: 10px;
 }
 .scorecard{
-    color: rgb(248, 248, 248);
+    color:#E0E0E0;
     display: flex;
     flex-direction: column;
     padding-right: 20px;
     align-items: center;
     border: 2px solid rgb(0, 183, 255);
+    background-color: #212121 ;
 }
 .records{
     display: flex;
     
+    
 }
 .roundNo,.computerScore,.humanScore{
+    display: flex;
+    flex-direction: column;
     padding-left: 8px;
     padding-right: 8px;
     font-size: 30px;
 }
 .title{
     font-size: 30px;
+}
+.roundNo{
+    color: #9E9E9E;;
+}
+.line1,.line2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.compChoice{
+    margin-top:10px ;
+    margin-bottom: 10px;
 }

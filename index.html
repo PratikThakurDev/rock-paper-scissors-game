@@ -7,27 +7,45 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script src="javascript.js"></script>
+        <script src="javascript.js" defer></script>
         <div class="heading">Rock-Paper-Scissor</div>
-        <p class="line">Whoever wins five rounds first wins !!!</p>
-        <p class="line">So, what's your choice ...</p>
-        <div class="main-content">
-            <div class="choice">
-                <div class="buttons">
-                    <button><image src="images/rock.jpeg"></image> </button>
-                    <button><image src="images/paper.jpeg"></image> </button>
-                    <button><image src="images/scissors.jpeg"></image> </button>
+        <div class="container">
+            <div class="content">
+                <div class="line1">
+                    <p class="line">Whoever wins five rounds first wins !!! </p>
+                    <p class="compChoice">Computer Choice - Not Yet  </p>
                 </div>
-                <div class="round">Round : 1</div>
+                <div class="line2">
+                    <p class="line">So, what's your choice ...</p>
+                    <p class="result"></p>
+                </div>
+                <div class="main-content">
+                    <div class="choice">
+                        <div class="buttons">
+                            <button id = 'rock-choice' class="image1"><image src="images/rock.jpeg"></image> </button>
+                            <button id = 'paper-choice' class="image2"><image src="images/paper.jpeg"></image> </button>
+                            <button id = 'scissors-choice' class="image3"><image src="images/scissors.jpeg"></image> </button>
+                        </div>
+                        <div class="round">Round : 1</div>
+                </div>
+            </div>
             </div>
             <div class="scorecard">
                 <p class="title">Scorecard</p>
                 <div class="records">
-                    <div class="roundNo">Round No.</div>
-                    <div class="humanScore">Human Score</div>
-                    <div class="computerScore">Computer Score</div>
+                    <div class="roundNo">
+                        <p>Round No.</p>
+                    </div>
+            
+                    <div class="humanScore">
+                        <p>Human Score</p>
+                    </div>
+                    <div class="computerScore">
+                        <p>Computer Score</p>
+                    </div>
                 </div>
             </div>
+        
         </div>
         
         
